@@ -8406,7 +8406,7 @@ input[type=checkbox] {
   }
 }
 .header-area.header-sanatory .header-inner h5 {
-  font-size: 20px;
+  font-size: 22px;
   line-height: 28px;
   font-family: "Roboto";
   font-weight: bold;
@@ -8419,7 +8419,7 @@ input[type=checkbox] {
 }
 .header-area.header-sanatory .header-inner p {
   color: #04072E;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 28px;
   max-width: 600px;
   margin-bottom: 20px;
