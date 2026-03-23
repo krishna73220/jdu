@@ -4475,10 +4475,10 @@
     }
     .header-area.header-sanatory .header-inner .title {
         font-size: 32px;
-        line-height: 38px;
+        line-height: 50px;
     }
     .header-area.header-sanatory {
-        padding: 80px 0px 80px;
+        padding: 60px 0px 80px;
     }
     .meet-member-wrapper .meet-member-img .member-quotes {
         left: -47%;
