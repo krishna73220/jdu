@@ -49,7 +49,7 @@ body {
 }
 
 ::-webkit-scrollbar-thumb {
-  background-image: linear-gradient(125deg, #DD131A 0%, #ffc05e 100%);
+  background-image: linear-gradient(125deg, #228b22 0%, #000565 100%);
   border-radius: 10px;
 }
 
@@ -8336,7 +8336,7 @@ input[type=checkbox] {
 }
 .header-area.header-sanatory {
   background-color: transparent;
-  padding: 200px 0 150px;
+  padding: 85px 0 150px;
 }
 .header-area.header-sanatory.home-six {
   background: var(--heading-color);
@@ -8646,7 +8646,7 @@ input[type=checkbox] {
   background-size: contain;
   position: absolute;
   right: 10%;
-  top: 6%;
+  top: 0%;
   z-index: -1;
 }
 .header-area.header-sanatory .senatory-bg-img-02 {
@@ -15698,4 +15698,50 @@ ul.blocks-gallery-grid li:before {
 }
 .blog-pagination ul li span.active {
   color: var(--main-color-one);
+}
+/* ********************************************our css************************************* */
+
+    /* Header Top */
+    .header-top {
+      /* padding: 10px 0; */
+      background: #228b22;
+    }
+
+    /* Social Box */
+    .top-social {
+      background: #fff !important;
+      padding: 10px 30px;
+      display: inline-block;
+      position: relative;
+
+      /* Diagonal cut */
+      clip-path: polygon(0 0, 88% 0, 100% 100%, 0% 100%);
+    }
+
+    /* Social Icons */
+    .top-social-share {
+      display: flex;
+      gap: 12px;
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    .top-social-share li a {
+      color: #ff3d3d !important;
+      font-size: 14px;
+      transition: 0.3s ease;
+    }
+
+    .top-social-share li a:hover {
+      color: #ff3d3d;
+      transform: translateY(-2px);
+    }
+  
+.header-area.header-sanatory .sanatory-bg-left{
+      right: 45% !important;
+}
+.header-area .slider-round{
+  left: 54% !important;
+
 }
