@@ -8380,8 +8380,9 @@ input[type=checkbox] {
   color: var(--main-color-one);
 }
 .header-area.header-sanatory .header-inner .title {
-  font-size: 65px;
-  line-height: 85px;
+  
+  font-size: 36px;
+  line-height: 55px;
   font-weight: 700;
   color: #000565;
   margin-bottom: 20px;
